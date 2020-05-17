@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget with PortraitModeMixin {
       title: 'Disperse',
       darkTheme: ThemeData.dark().copyWith(
           textTheme: ThemeData.dark().textTheme.copyWith(
-              title: ThemeData.dark().textTheme.title.copyWith(
+              headline6: ThemeData.dark().textTheme.headline6.copyWith(
                   fontSize: Configuration.TITLE_SIZE, color: DefaultColors().settingsTextColor))),
       themeMode: ThemeMode.dark,
       initialRoute: '/loadingScreen',

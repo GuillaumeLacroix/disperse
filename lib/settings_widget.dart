@@ -56,7 +56,7 @@ class _SettingsPanelState extends State<SettingsPanel> {
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
                   'Colors',
-                  style: Theme.of(context).textTheme.title,
+                  style: Theme.of(context).textTheme.headline6,
                 )),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -66,7 +66,7 @@ class _SettingsPanelState extends State<SettingsPanel> {
               padding: const EdgeInsets.all(8.0),
               child: Text(
                 'Shapes',
-                style: Theme.of(context).textTheme.title,
+                style: Theme.of(context).textTheme.headline6,
               ),
             ),
             Row(
@@ -85,7 +85,7 @@ class _SettingsPanelState extends State<SettingsPanel> {
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
                     'Recording',
-                    style: Theme.of(context).textTheme.subhead,
+                    style: Theme.of(context).textTheme.subtitle1,
                   ),
                 ),
                 onPressed: () {
@@ -153,7 +153,7 @@ class _RadiusSliderWidgetState extends State<RadiusSliderWidget> {
             'Shape radius',
             style: Theme.of(context)
                 .textTheme
-                .title
+                .headline6
                 .copyWith(color: DefaultColors().settingsTextColor),
           ),
           Flexible(

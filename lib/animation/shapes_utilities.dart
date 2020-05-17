@@ -94,7 +94,7 @@ class _ShapeWidgetState extends State<ShapeWidget> {
                 child: Center(
                     child: Text(
                   getShapeStr(Shape.values[widget.index]),
-                      style: Theme.of(context).textTheme.subhead,
+                      style: Theme.of(context).textTheme.subtitle1,
                 )),
                 width: size - Configuration.SETTINGS_STROKE_WIDTH / 2,
                 height: size - Configuration.SETTINGS_STROKE_WIDTH / 2),
